@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/BL-Tabor">
+  <ResourceLink global="jdbc/PgBLTabor" name="jdbc/PgBLTabor" type="javax.sql.DataSource"/>
+</Context>

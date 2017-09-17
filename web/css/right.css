@@ -1,0 +1,46 @@
+body {
+    font-family: Tahoma, Helvetica, serif;
+    font-size: 10pt;
+    color: black;
+    background-color: white;
+    margin-left: 5px;
+}
+
+#msg {
+    color: red;
+    text-align: left;
+}
+#infomsg {
+    color: green;
+    text-align: left;
+}
+a.menu {
+    font-family: arial;
+    color: blue;
+    text-decoration: none;
+    font-size: 10pt;
+}
+a.menu:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: 10pt;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.submit {
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+option {
+    width: 150px;
+}
