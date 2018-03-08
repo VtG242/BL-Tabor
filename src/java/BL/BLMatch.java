@@ -174,17 +174,18 @@ public class BLMatch {
 
         //slo by predelat do funkce  a vyuzit pole viz vyse
         //vysledky za celkove skore - 2 body za vyhru, 1 bod za remizu
+        //20180228 - zmena 0.5 remiza a 1 bod vyhra
         if (this.matchHTpoints == this.matchVTpoints) {
-            this.matchResult[0] += 1;
-            this.matchResult[1] += 1;
-            this.matchHTGamePoints = 1;
-            this.matchVTGamePoints = 1;
+            this.matchResult[0] += 0.5;
+            this.matchResult[1] += 0.5;
+            this.matchHTGamePoints = 0.5;
+            this.matchVTGamePoints = 0.5;
         } else if (this.matchHTpoints > this.matchVTpoints) {
-            this.matchResult[0] += 2;
-            this.matchHTGamePoints = 2;
+            this.matchResult[0] += 1;
+            this.matchHTGamePoints = 1;
         } else {
-            this.matchResult[1] += 2;
-            this.matchVTGamePoints = 2;
+            this.matchResult[1] += 1;
+            this.matchVTGamePoints = 1;
         }
 
         //vypocty pro celkove body za hrace a team

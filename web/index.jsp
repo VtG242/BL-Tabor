@@ -63,6 +63,7 @@
 
         <ul>
             <li>13.07.2014 - Přidána možnost zadávat kontumace přes hráče s id 0 "Kontumace výsledku"</li>
+            <li>28.02.2018 - Body za vítězství týmu 1 - remíza 0.5</li>
         </ul>
 
         <div id="msg"><%= session.getAttribute("s_msg") != null ? session.getAttribute("s_msg") : ""%></div>
